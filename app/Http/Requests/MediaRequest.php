@@ -26,7 +26,10 @@ class MediaRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'name' => 'required|min:5|max:255'
+            'status' => 'required',
+            'title_en' => 'required|min:3',
+            'title_ru' => 'required|min:3',
+            'title_uz' => 'required|min:3',
         ];
     }
 
