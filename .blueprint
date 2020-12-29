@@ -1,0 +1,22 @@
+created:
+    - database/factories/Models/StaffFactory.php
+    - database/factories/Models/MembershipFactory.php
+    - database/factories/Models/PartnerFactory.php
+    - database/factories/Models/NewsFactory.php
+    - database/factories/Models/MediaFactory.php
+    - database/migrations/2020_12_29_072937_create_staff_table.php
+    - database/migrations/2020_12_29_072938_create_memberships_table.php
+    - database/migrations/2020_12_29_072939_create_partners_table.php
+    - database/migrations/2020_12_29_072940_create_news_table.php
+    - database/migrations/2020_12_29_072941_create_media_table.php
+    - app/Models/Staff.php
+    - app/Models/Membership.php
+    - app/Models/Partner.php
+    - app/Models/News.php
+    - app/Models/Media.php
+models:
+    Models/Staff: { name_en: 'string:300 nullable', name_uz: 'string:300 nullable', name_ru: 'string:300 nullable', position_en: 'string:300 nullable', position_uz: 'string:300 nullable', position_ru: 'string:300 nullable', reception_time_en: 'string:300 nullable', reception_time_uz: 'string:300 nullable', reception_time_ru: 'string:300 nullable', email: 'string:100 nullable', facebook: 'varchar:300 nullable', instagram: 'varchar:300 nullable', linkedin: 'varchar:300 nullable', twitter: 'varchar:300 nullable', image: 'string:1500 nullable', timestamps: timestamps, softdeletes: softDeletes }
+    Models/Membership: { status: 'enum:active,inactive', name_en: 'string:300 nullable', name_uz: 'string:300 nullable', name_ru: 'string:300 nullable', slug_en: 'string:300 unique nullable', certificate_number: 'integer nullable', inn: 'integer nullable', year: 'integer nullable', value: 'integer nullable', expiry_date: 'date nullable', desc_en: 'longtext nullable', desc_uz: 'longtext nullable', desc_ru: 'longtext nullable', file: 'string:300 nullable', web: 'varchar:80 nullable', email: 'string:100 nullable', phone: 'char:25 nullable', address_en: 'varchar:255 nullable', address_uz: 'varchar:255 nullable', address_ru: 'varchar:255 nullable', image: 'string:1500 nullable', timestamps: timestamps, softdeletes: softDeletes }
+    Models/Partner: { name_en: 'string:300 nullable', name_uz: 'string:300 nullable', name_ru: 'string:300 nullable', field_en: 'string:600 nullable', field_uz: 'string:600 nullable', field_ru: 'string:600 nullable', web: 'varchar:80 nullable', desc_en: 'longtext nullable', desc_uz: 'longtext nullable', desc_ru: 'longtext nullable', email: 'string:100 nullable', facebook: 'varchar:300 nullable', instagram: 'varchar:300 nullable', linkedin: 'varchar:300 nullable', twitter: 'varchar:300 nullable', image: 'string:1500 nullable', timestamps: timestamps, softdeletes: softDeletes }
+    Models/News: { type: 'enum:association,all', title_en: 'string:500 nullable', title_uz: 'string:500 nullable', title_ru: 'string:500 nullable', slug_en: 'string:300 unique nullable', body_en: 'longtext nullable', body_uz: 'longtext nullable', body_ru: 'longtext nullable', author_en: 'string:100 nullable', author_uz: 'string:100 nullable', author_ru: 'string:100 nullable', link: 'varchar:500 nullable', image1: 'string:1600 nullable', image2: 'string:1600 nullable', image3: 'string:1600 nullable', image4: 'string:1600 nullable', timestamps: timestamps, softdeletes: softDeletes }
+    Models/Media: { status: 'enum:photo,video', title_en: 'string:500 nullable', title_uz: 'string:500 nullable', title_ru: 'string:500 nullable', slug_en: 'string:300 unique nullable', body_en: 'longtext nullable', body_uz: 'longtext nullable', body_ru: 'longtext nullable', link: 'varchar:500 nullable', image1: 'string:1600 nullable', timestamps: timestamps, softdeletes: softDeletes }

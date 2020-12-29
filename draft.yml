@@ -1,5 +1,4 @@
 models: 
-
   Models/Staff: 
     name_en: string:300 nullable
     name_uz: string:300 nullable
@@ -63,7 +62,6 @@ models:
     image: string:1500 nullable
     timestamps: true
     softDeletes: true
-
 
   Models/News:
     type: enum:association,all
