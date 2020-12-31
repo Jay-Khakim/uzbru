@@ -26,7 +26,16 @@ class StaffRequest extends FormRequest
     public function rules()
     {
         return [
-            // 'name' => 'required|min:5|max:255'
+            'name_en' => 'required|min:3',
+            'name_ru' => 'required|min:3',
+            'name_uz' => 'required|min:3',
+            'position_en' => 'required|min:3',
+            'position_ru' => 'required|min:3',
+            'position_uz' => 'required|min:3',
+            'reception_time_en' => 'required|min:3',
+            'reception_time_ru' => 'required|min:3',
+            'reception_time_uz' => 'required|min:3',
+            'image' => 'required'
         ];
     }
 
