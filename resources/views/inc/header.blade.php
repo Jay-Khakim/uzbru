@@ -2,7 +2,7 @@
 <nav id="menu">
     <ul>
         <li class="active">
-            <a href="index.php">@lang("Main")</a>
+            <a href="{{route('home', app()->getLocale())}}">@lang("Main")</a>
         </li>
         <li><a href="com-history.php">@lang("Association")</a>
             <ul >
@@ -55,14 +55,12 @@
 <header class="header-3-fix" >
     <div class="nav-warp nav-warp-h3">
         <div class="navi-warp-home-3">
-            <a href="index.php" class="logo"><img src="/images/Logo-on-dark.png" class="img-responsive" alt="Image"></a>
+            <a href="{{route('home', app()->getLocale())}}" class="logo"><img src="/images/Logo-on-dark.png" class="img-responsive" alt="Image"></a>
             
             <div class="tb-social-lan language">
                 <a href="tel:+998712070098"><i class="fa fa-phone" aria-hidden="true"></i>+998(71)2070098</a>
                 <select class="lang">
-                    <option data-class="usa">@lang("English")</option>
-                    <option data-class="uz">@lang("Uzbek")</option>
-                    <option data-class="ru">@lang("Russian")</option>
+                    @yield('language')
                 </select>
                 <ul>
                     <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -74,7 +72,7 @@
             <nav>
                         <ul class="navi-level-1 active-subcolor">
                             <li class="active">
-                                <a href="index.php">@lang("Main")</a>
+                                <a href="{{route('home', app()->getLocale())}}">@lang("Main")</a>
                             </li>
                             <li><a href="company_history.php">@lang("Association")</a>
                                 <ul class="navi-level-2">
