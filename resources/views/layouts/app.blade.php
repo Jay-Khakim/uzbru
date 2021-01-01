@@ -5,7 +5,6 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         @yield('title')
-		<title>@lang("O'zbekiston Biznesni Rivojlantirish Uyushmasi") | @lang("O'zBRU")</title>
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="/css/bootstrap.css">
 		<!-- Fonts -->
@@ -40,7 +39,7 @@
 <body class="royal_loader">
     <div id="page">
         @include('inc.header')
-
+        @yield('content')
         @include('inc.footer')
 
     </div>
