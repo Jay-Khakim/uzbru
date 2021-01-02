@@ -4,7 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\News;
-use App\Models\Product;
+use App\Models\Media;
+use App\Models\Membership;
+use App\Models\Partner;
+use App\Models\Staff;
 
 class PageController extends Controller
 {
@@ -19,5 +22,10 @@ class PageController extends Controller
     // Association
     public function association(){
         return view('association.association');
+    }
+
+    public function about(){
+        $staff = Staff::all();
+        return view('association.aboutus')->with(compact("staff"));
     }
 }

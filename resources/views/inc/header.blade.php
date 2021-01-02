@@ -9,7 +9,7 @@
 
                 <li><a href="{{route('association', app()->getLocale())}}" ><span>@lang("History")</span></a>
                 </li>
-                <li><a href="about.php" ><span>@lang("About Us")</span></a>
+                <li><a href="{{route('about', app()->getLocale())}}" ><span>@lang("About Us")</span></a>
                 </li>
                 <li><a href="services.php" ><span>@lang("Services")</span></a>
                 </li>
@@ -79,7 +79,7 @@
 
                                     <li><a href="{{route('association', app()->getLocale())}}" ><span>@lang("History")</span></a>
                                     </li>
-                                    <li><a href="about.php" ><span>@lang("About Us")</span></a>
+                                    <li><a href="{{route('about', app()->getLocale())}}" ><span>@lang("About Us")</span></a>
                                     </li>
                                     <li><a href="services.php" ><span>@lang("Services")</span></a>
                                     </li>

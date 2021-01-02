@@ -60,7 +60,7 @@
                     <p>@lang("Subscribe to our newsletter for the latest news about our association")</p>
                     <form class="form-subcri-footer">
                       <div class="form-group">
-                        <input type="email" class="form-control"   placeholder="Email Address">
+                        <input type="email" class="form-control"   placeholder="@lang("Email Address")">
                       </div>
                       <button type="submit" class="btn-subcri-footer">@lang("Subscribe")</button>
                     </form>
