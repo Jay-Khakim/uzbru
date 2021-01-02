@@ -25,7 +25,7 @@
                 <div class="services-list-warp">
                     <div class="item-service-list">
                         <figure>
-                            <img src="images/Services/1p.jpg" class="img-responsive" alt="Image">
+                            <img src="/images/Services/1p.jpg" class="img-responsive" alt="Image">
                             <figcaption>Turnaround Consulting</figcaption>
                         </figure>
                         <div class="box-sum-service">
@@ -35,7 +35,7 @@
                     </div>
                     <div class="item-service-list">
                         <figure>
-                            <img src="images/Services/2p.jpg" class="img-responsive" alt="Image">
+                            <img src="/images/Services/2p.jpg" class="img-responsive" alt="Image">
                             <figcaption>Bonds & Commodities</figcaption>
                         </figure>
                         <div class="box-sum-service">
@@ -45,7 +45,7 @@
                     </div>
                     <div class="item-service-list">
                         <figure>
-                            <img src="images/Services/3p.jpg" class="img-responsive" alt="Image">
+                            <img src="/images/Services/3p.jpg" class="img-responsive" alt="Image">
                             <figcaption>Audit & Assurance</figcaption>
                         </figure>
                         <div class="box-sum-service">
@@ -55,7 +55,7 @@
                     </div>
                     <div class="item-service-list">
                         <figure>
-                            <img src="images/Services/4p.jpg" class="img-responsive" alt="Image">
+                            <img src="/images/Services/4p.jpg" class="img-responsive" alt="Image">
                             <figcaption>Trades & Stocks</figcaption>
                         </figure>
                         <div class="box-sum-service">
@@ -65,7 +65,7 @@
                     </div>
                     <div class="item-service-list">
                         <figure>
-                            <img src="images/Services/5p.jpg" class="img-responsive" alt="Image">
+                            <img src="/images/Services/5p.jpg" class="img-responsive" alt="Image">
                             <figcaption>Strategic Planning</figcaption>
                         </figure>
                         <div class="box-sum-service">
@@ -75,7 +75,7 @@
                     </div>
                     <div class="item-service-list">
                         <figure>
-                            <img src="images/Services/6p.jpg" class="img-responsive" alt="Image">
+                            <img src="/images/Services/6p.jpg" class="img-responsive" alt="Image">
                             <figcaption>Financial Projections</figcaption>
                         </figure>
                         <div class="box-sum-service">
