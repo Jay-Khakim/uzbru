@@ -1845,7 +1845,7 @@ body.royal_loader {
 /* Home 1 About Company*/
 .about-h1 {
   padding-bottom: 0;
-  background: url(images/bg-content/about-1.png) no-repeat;
+  background: url(/images/bg-content/about-1.png) no-repeat;
   background-position: top right;
 }
 .demo-about-h1 .iconbox {
@@ -1954,7 +1954,7 @@ body.royal_loader {
 .bg-counter-h1 {
   width: 100%;
   height: 267px;
-  background: url(images/bg-content/ct-h1.jpg) no-repeat;
+  background: url(/images/bg-content/ct-h1.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -2066,7 +2066,7 @@ body.royal_loader {
 }
 /* Call Back Form Hoem 1 */
 .cb-h1 {
-  background: url(images/bg-content/cb-h1.png) no-repeat;
+  background: url(/images/bg-content/cb-h1.png) no-repeat;
   background-size: cover;
 }
 .cb-form input.form-control {
@@ -2164,7 +2164,7 @@ body.royal_loader {
 }
 /* Subcribe Form*/
 .bg-subcr-1 {
-  background: url(images/bg-content/bg-subcri.jpg) no-repeat;
+  background: url(/images/bg-content/bg-subcri.jpg) no-repeat;
   background-size: cover;
   padding: 95px 0 80px 0;
 }
@@ -2240,7 +2240,7 @@ body.royal_loader {
 /* Home 1 Our Project */
 .bg-project-h1 {
   padding-bottom: 30px;
-  background: url(images/bg-content/bg-project-h1.jpg);
+  background: url(/images/bg-content/bg-project-h1.jpg);
 }
 .project-h1-warp {
   margin-top: 50px;
@@ -2337,7 +2337,7 @@ body.royal_loader {
 /* Home 2 Quote */
 .bg-quote-h2 {
   padding: 90px 0;
-  background: url(images/bg-content/bg-quote-h2.jpg) no-repeat;
+  background: url(/images/bg-content/bg-quote-h2.jpg) no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -2549,7 +2549,7 @@ body.royal_loader {
 }
 .bg-pricing-h2 {
   padding: 100px 0 225px 0;
-  background: url(images/bg-content/bg-pricing-h2.jpg) no-repeat;
+  background: url(/images/bg-content/bg-pricing-h2.jpg) no-repeat;
   background-attachment: fixed;
 }
 .pricing-table .plan {
@@ -2632,7 +2632,7 @@ body.royal_loader {
 /* --------------- */
 /* Home 3 Offer */
 .bg-iconbox-h3 {
-  background: url(images/bg-content/iconbox-h3.jpg) no-repeat;
+  background: url(/images/bg-content/iconbox-h3.jpg) no-repeat;
   background-size: cover;
 }
 .section-fix-position-h3 {
@@ -2684,7 +2684,7 @@ body.royal_loader {
 /* Home 3 Quote */
 .bg-quote-h3 {
   padding: 90px 0;
-  background: url(images/bg-content/bg-quote-h3.jpg) repeat;
+  background: url(/images/bg-content/bg-quote-h3.jpg) repeat;
   background-attachment: fixed;
 }
 .quote-inner-h3 p {
@@ -2715,7 +2715,7 @@ body.royal_loader {
 }
 /* Call Back Home 3 */
 .cb-h3 {
-  background: url(images/bg-content/cb-h3.jpg) no-repeat;
+  background: url(/images/bg-content/cb-h3.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -2801,7 +2801,7 @@ body.royal_loader {
 }
 /* Strategy Development Home 4 */
 .bg-strategy-h4 {
-  background: url(images/bg-content/bg-strategy-h4.png) no-repeat;
+  background: url(/images/bg-content/bg-strategy-h4.png) no-repeat;
   background-size: cover;
 }
 .strategy-warp-h4 .iconbox {
@@ -2939,7 +2939,7 @@ body.royal_loader {
 }
 /* Location Home 4 */
 .bg-location-h4 {
-  background: url(images/bg-content/bg-location-h4.jpg) no-repeat;
+  background: url(/images/bg-content/bg-location-h4.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -3061,7 +3061,7 @@ body.royal_loader {
 }
 /* Call Back Home 5 */
 .cb-h5 {
-  background: url(images/bg-content/cb-h5.jpg) no-repeat;
+  background: url(/images/bg-content/cb-h5.jpg) no-repeat;
   background-size: cover;
 }
 .cb-h5 {
@@ -3203,7 +3203,7 @@ body.royal_loader {
 }
 /* Planning Steps */
 .bg-plan-h5 {
-  background: url(images/bg-content/bg-quote-h3.jpg) repeat;
+  background: url(/images/bg-content/bg-quote-h3.jpg) repeat;
   background-attachment: fixed;
 }
 .owl-plan-h5 .owl-wrapper-outer {
@@ -3329,13 +3329,13 @@ body.royal_loader {
   z-index: 0;
 }
 .services-h6-warp .background-image {
-  background: url(images/bg-content/services-h4.jpg);
+  background: url(/images/bg-content/services-h4.jpg);
 }
 /* Counter Up Home 6 */
 .bg-counter-h6 {
   width: 100%;
   height: 323px;
-  background: url(images/bg-content/ct-h6.jpg) repeat;
+  background: url(/images/bg-content/ct-h6.jpg) repeat;
   background-attachment: fixed;
 }
 .bg-counter-h6 .warp-counter {
@@ -3343,7 +3343,7 @@ body.royal_loader {
 }
 /* Testimonial Home 6 */
 .bg-tw-h6 {
-  background: url(images/bg-content/tw-h6.jpg) no-repeat;
+  background: url(/images/bg-content/tw-h6.jpg) no-repeat;
   background-size: cover;
 }
 .item-testimonial-h6 img {
@@ -3387,7 +3387,7 @@ body.royal_loader {
 }
 /* Call Back Home 6 */
 .cb-h6 {
-  background: url(images/bg-content/cb-h6.jpg) no-repeat;
+  background: url(/images/bg-content/cb-h6.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -3514,7 +3514,7 @@ body.royal_loader {
 }
 /* Testimonial Home 7 */
 .bg-tw-h7 {
-  background: url(images/bg-content/tw-h7.jpg) no-repeat;
+  background: url(/images/bg-content/tw-h7.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -3533,7 +3533,7 @@ body.royal_loader {
 }
 /* About Home 7 */
 .bg-about-home-7 {
-  background: url(images/bg-content/bg-about-h7.jpg) no-repeat;
+  background: url(/images/bg-content/bg-about-h7.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -3673,7 +3673,7 @@ body.royal_loader {
 }
 /* Team Home 7 */
 .bg-team-h7 {
-  background: url(images/bg-content/bg-team-h7.jpg) repeat;
+  background: url(/images/bg-content/bg-team-h7.jpg) repeat;
   background-attachment: fixed;
 }
 .group-title-btn {
@@ -3741,7 +3741,7 @@ body.royal_loader {
 /* quote */
 .bg-quote-h8 {
   padding: 54px 0px;
-  background: url(images/bg-content/bg-subcri.jpg) no-repeat;
+  background: url(/images/bg-content/bg-subcri.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -3760,7 +3760,7 @@ body.royal_loader {
 }
 /* Services */
 .bg-services-h8 {
-  background: url(images/bg-content/bg-services-h8.jpg) no-repeat;
+  background: url(/images/bg-content/bg-services-h8.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -3785,7 +3785,7 @@ body.royal_loader {
 /* Find Advisor */
 .bg-find-adv-h8 {
   padding-bottom: 100px;
-  background: url(images/bg-content/bg-fdv-h8.jpg) no-repeat;
+  background: url(/images/bg-content/bg-fdv-h8.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -3806,7 +3806,7 @@ body.royal_loader {
 /* Home 9 */
 /* Cases */
 .bg-case-h9 {
-  background: url(images/bg-content/bg-cases-h9.png) no-repeat;
+  background: url(/images/bg-content/bg-cases-h9.png) no-repeat;
   background-attachment: fixed;
   background-position: top right;
 }
@@ -3829,7 +3829,7 @@ body.royal_loader {
 }
 /* Find advisor */
 .bg-fdv-h9 {
-  background: url(images/bg-content/bg-fdv-h9.jpg) no-repeat;
+  background: url(/images/bg-content/bg-fdv-h9.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -3853,7 +3853,7 @@ body.royal_loader {
 }
 /* News  */
 .bg-news-h9 {
-  background: url(images/bg-content/bg-news-h9.jpg) repeat;
+  background: url(/images/bg-content/bg-news-h9.jpg) repeat;
   background-attachment: fixed;
 }
 .news-h9-warp {
@@ -3882,7 +3882,7 @@ body.royal_loader {
   margin-top: 30px;
 }
 .bg-location-h9 {
-  background: url(images/bg-content/bg-location-h9.jpg) no-repeat;
+  background: url(/images/bg-content/bg-location-h9.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -3985,7 +3985,7 @@ body.royal_loader {
 }
 /* Testimonial */
 .bg-tw-h10 {
-  background: url(images/bg-content/cb-h7.jpg) no-repeat;
+  background: url(/images/bg-content/cb-h7.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -4159,7 +4159,7 @@ body.royal_loader {
 }
 /* FAQ Home 12 */
 .bg-fq-h12 {
-  background: url(images/bg-content/fq-h12.jpg) no-repeat;
+  background: url(/images/bg-content/fq-h12.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -4239,7 +4239,7 @@ body.royal_loader {
 }
 /* About Page  */
 .sh-about {
-  background: url(images/bg-content/sh-about.jpg) no-repeat;
+  background: url(/images/bg-content/sh-about.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -4269,7 +4269,7 @@ body.royal_loader {
 }
 /* Cases Page  */
 .sh-cases {
-  background: url(images/bg-content/bg-quote-h2.jpg) no-repeat;
+  background: url(/images/bg-content/bg-quote-h2.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -4305,7 +4305,7 @@ body.royal_loader {
   font-weight: bold;
 }
 .sh-contact {
-  background: url(images/bg-content/sh-contact.jpg) no-repeat;
+  background: url(/images/bg-content/sh-contact.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -4367,7 +4367,7 @@ body.royal_loader {
   width: 100%;
 }
 .sh-team {
-  background: url(images/bg-content/sh-team.jpg) no-repeat;
+  background: url(/images/bg-content/sh-team.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -4576,7 +4576,7 @@ body.royal_loader {
 }
 /* Services Page */
 .sh-services {
-  background: url(images/bg-content/bg-quote-h2.jpg) no-repeat;
+  background: url(/images/bg-content/bg-quote-h2.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -4729,7 +4729,7 @@ ul.wd-list-link li.active a {
 }
 /* History Page */
 .sh-company-history {
-  background: url(images/bg-content/cb-h5.jpg) no-repeat;
+  background: url(/images/bg-content/cb-h5.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -4897,7 +4897,7 @@ ul.wd-list-link li.active a {
 }
 /* News page */
 .sh-news {
-  background: url(images/bg-content/sh-news.jpg) no-repeat;
+  background: url(/images/bg-content/sh-news.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -5209,7 +5209,7 @@ ul.pagination li.active a {
 }
 /* Single Cases */
 .sh-case-single {
-  background: url(images/bg-content/bg-quote-h2.jpg) no-repeat;
+  background: url(/images/bg-content/bg-quote-h2.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -5283,7 +5283,7 @@ ul.pagination li.active a {
 }
 /* Single Services */
 .sh-single-services {
-  background: url(images/bg-content/sh-single-services.jpg) no-repeat;
+  background: url(/images/bg-content/sh-single-services.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -5552,7 +5552,7 @@ ul.pagination li.active a {
 }
 /* Career Page */
 .sh-career {
-  background: url(images/bg-content/sh-career.jpg) no-repeat;
+  background: url(/images/bg-content/sh-career.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -5664,7 +5664,7 @@ ul.pagination li.active a {
   height: 100vh;
 }
 .bg-404 {
-  background: url(images/bg-content/404.jpg) no-repeat;
+  background: url(/images/bg-content/404.jpg) no-repeat;
   background-size: cover;
   background-position: fixed;
 }
@@ -5782,7 +5782,7 @@ ul.pagination li.active a {
   position: absolute;
   top: 0;
   right: 0;
-  background: url(images/bg-content/follow.png) no-repeat;
+  background: url(/images/bg-content/follow.png) no-repeat;
   width: 120px;
   height: 52px;
 }
@@ -6162,13 +6162,13 @@ ul.pagination li.active a {
 }
 /* Pricing */
 .sh-pricing {
-  background: url(images/bg-content/sh-pricing.jpg) no-repeat;
+  background: url(/images/bg-content/sh-pricing.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 /* Account */
 .bg-acc {
-  background: url(images/bg-content/bg-acc.jpg) no-repeat;
+  background: url(/images/bg-content/bg-acc.jpg) no-repeat;
   background-size: cover;
 }
 .login-warp {
@@ -6450,7 +6450,7 @@ footer {
   background: #1a1a1a;
 }
 .f-bg-img {
-  background: url(images/Footer/bg-footer-img.jpg) no-repeat;
+  background: url(/images/Footer/bg-footer-img.jpg) no-repeat;
   backgruond-size: cover;
   background-attachment: fixed;
 }
@@ -10334,7 +10334,7 @@ small.time {
   /* About */
   .about-h1 {
     position: relative;
-    background: url(images/bg-content/about-1.png) no-repeat;
+    background: url(/images/bg-content/about-1.png) no-repeat;
     background-position: top right;
   }
   /* Counter up home 1 */
@@ -10994,7 +10994,7 @@ small.time {
     margin-bottom: 0;
   }
   .about-warp-h10 {
-    background: url(images/bg-content/bg-about-h10.jpg) no-repeat;
+    background: url(/images/bg-content/bg-about-h10.jpg) no-repeat;
     background-size: cover;
     background-attachment: fixed;
   }

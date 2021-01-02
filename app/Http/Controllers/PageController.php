@@ -14,4 +14,10 @@ class PageController extends Controller
         // dd($news);
         return view("index")->with(compact("news"));
     }
+
+
+    // Association
+    public function association(){
+        return view('association.association');
+    }
 }

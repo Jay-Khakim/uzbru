@@ -4,10 +4,10 @@
         <li class="active">
             <a href="{{route('home', app()->getLocale())}}">@lang("Main")</a>
         </li>
-        <li><a href="com-history.php">@lang("Association")</a>
+        <li><a href="{{route('association', app()->getLocale())}}">@lang("Association")</a>
             <ul >
 
-                <li><a href="com-history.php" ><span>@lang("History")</span></a>
+                <li><a href="{{route('association', app()->getLocale())}}" ><span>@lang("History")</span></a>
                 </li>
                 <li><a href="about.php" ><span>@lang("About Us")</span></a>
                 </li>
@@ -74,10 +74,10 @@
                             <li class="active">
                                 <a href="{{route('home', app()->getLocale())}}">@lang("Main")</a>
                             </li>
-                            <li><a href="company_history.php">@lang("Association")</a>
+                            <li><a href="{{route('association', app()->getLocale())}}">@lang("Association")</a>
                                 <ul class="navi-level-2">
 
-                                    <li><a href="com-history.php" ><span>@lang("History")</span></a>
+                                    <li><a href="{{route('association', app()->getLocale())}}" ><span>@lang("History")</span></a>
                                     </li>
                                     <li><a href="about.php" ><span>@lang("About Us")</span></a>
                                     </li>

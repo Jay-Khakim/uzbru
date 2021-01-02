@@ -41,7 +41,7 @@
                         <span class="bottom-title"></span>
                     </div>
                     <ul>
-                        <li><a href="#">@lang("Association")</a></li>
+                        <li><a href="{{route('association', app()->getLocale())}}">@lang("Association")</a></li>
                         <li><a href="#">@lang("FAQ")</a></li>
                         <li><a href="#">@lang("Benefits")</a></li>
                         <li><a href="#">@lang("List of members")</a></li>
