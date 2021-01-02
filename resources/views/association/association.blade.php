@@ -93,7 +93,7 @@
                         <ul class="wd-list-link">
                             <li><a href="{{route('association', app()->getLocale())}}">@lang("Association history")</a></li>
                             <li><a href="{{route('about', app()->getLocale())}}">@lang("About Us")</a></li> 
-                            <li><a href="#">@lang("Services")</a></li>
+                            <li><a href="{{route('services', app()->getLocale())}}">@lang("Services")</a></li>
                             <li><a href="#">@lang("Staff")</a></li>
                             <li><a href="#">@lang("Staff")</a></li>
 

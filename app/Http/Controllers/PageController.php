@@ -28,4 +28,8 @@ class PageController extends Controller
         $staff = Staff::all();
         return view('association.aboutus')->with(compact("staff"));
     }
+
+    public function services(){
+        return view('association.services');
+    }
 }
