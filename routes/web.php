@@ -26,4 +26,5 @@ Route::group(['prefix' => '{language}'], function () {
     Route::get('/association', 'PageController@association')->name('association');
     Route::get('/about', 'PageController@about')->name('about');
     Route::get('/services', 'PageController@services')->name('services');
+    Route::get('/team', 'PageController@team')->name('team');
 });

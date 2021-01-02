@@ -94,8 +94,8 @@
                             <li><a href="{{route('association', app()->getLocale())}}">@lang("Association history")</a></li>
                             <li><a href="{{route('about', app()->getLocale())}}">@lang("About Us")</a></li> 
                             <li><a href="{{route('services', app()->getLocale())}}">@lang("Services")</a></li>
-                            <li><a href="#">@lang("Staff")</a></li>
-                            <li><a href="#">@lang("Staff")</a></li>
+                            <li><a href="{{route('team', app()->getLocale())}}">@lang("Staff")</a></li>
+                            <li><a href="#">@lang("Branches")</a></li>
 
                         </ul>
                     </div>

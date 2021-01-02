@@ -13,7 +13,7 @@
                 </li>
                 <li><a href="{{route('services', app()->getLocale())}}" ><span>@lang("Services")</span></a>
                 </li>
-                <li><a href="team.php" ><span>@lang("Staff")</span></a>
+                <li><a href="{{route('team', app()->getLocale())}}" ><span>@lang("Staff")</span></a>
                 <li><a href="branches.php" ><span>@lang("Branches")</span></a>
             </ul>
         </li>
@@ -83,7 +83,7 @@
                                     </li>
                                     <li><a href="{{route('services', app()->getLocale())}}" ><span>@lang("Services")</span></a>
                                     </li>
-                                    <li><a href="team.php" ><span>@lang("Staff")</span></a>
+                                    <li><a href="{{route('team', app()->getLocale())}}" ><span>@lang("Staff")</span></a>
                                     </li>
                                     <li><a href="branches.php" ><span>@lang("Branches")</span></a>	
                                 </ul>
