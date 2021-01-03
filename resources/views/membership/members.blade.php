@@ -13,7 +13,7 @@
                 <a href="{{route('home', app()->getLocale())}}"><i class="fa fa-home"></i> @lang("Main")</a>
              </li>
              <li>
-                 <a href="#">@lang("Membership")</a>
+                 <a href="{{route('bemember', app()->getLocale())}}">@lang("Membership")</a>
              </li>
              <li class="active">@lang("List of members")</li>
          </ol>
@@ -38,12 +38,12 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="product-item">
                                 <figure >
-                                    <a href="single-member.php">
+                                    <a href="{{route('single-member', [app()->getLocale(), $member->id])}}">
                                         <img src="/storage/{{$member->image}}" class="img-responsive" alt="Image">
                                     </a>
                                 </figure>
                                 <div class="product-detail">
-                                    <h3 align="center"><a href="single-member.php">{{$member->name}}</a></h3>
+                                    <h3 align="center"><a href="{{route('single-member', [app()->getLocale(), $member->id])}}">{{$member->name}}</a></h3>
                                     <span class="price">
                                         @if ($member->status == "active")
                                             <span class="amount" style="color: green">@lang("Status"): {{$member->status}}</span> 
@@ -57,7 +57,7 @@
                                 
                                 </div>
                                 <div class="btn">
-                                    <a href="single-member.php" class="ot-btn btn-main-color">
+                                    <a href="{{route('single-member', [app()->getLocale(), $member->id])}}" class="ot-btn btn-main-color">
                                     <i class="fa fa-eye" aria-hidden="true"></i> @lang("More")
                                     </a>
                                 </div>

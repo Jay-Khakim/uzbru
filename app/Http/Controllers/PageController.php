@@ -53,4 +53,10 @@ class PageController extends Controller
         return view('membership.members')->with(compact("members"));
     }
 
+    public function singlemember($language, $id){
+        $members = Membership::take(10);
+        $member = Membership::where("id", $id)->first();
+        return view("membership.single-member")->with(compact("member", "members"));
+    }
+
 }
