@@ -44,7 +44,7 @@
                         <li><a href="{{route('association', app()->getLocale())}}">@lang("Association")</a></li>
                         <li><a href="#">@lang("FAQ")</a></li>
                         <li><a href="#">@lang("Benefits")</a></li>
-                        <li><a href="#">@lang("List of members")</a></li>
+                        <li><a href="{{route('members', app()->getLocale())}}">@lang("List of members")</a></li>
                         <li><a href="#">@lang("Photos")</a></li>
                         <li><a href="#">@lang("Contacts")</a></li>
 

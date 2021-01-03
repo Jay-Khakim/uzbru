@@ -121,6 +121,9 @@
     "Owners Name":"Имя владельца",
     "Location":"Расположение",
     "Established Year":"Год основания",
-    "Value":"Cтоимость"
+    "Value":"Cтоимость",
+    "Enter the Tax Identification Number":"Введите идентификационный номер налогоплательщика",
+    "Enter the TIN":"Введите ИНН",
+    "Check":"Проверить"
     
 }

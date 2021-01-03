@@ -122,6 +122,9 @@
     "Owners Name":"Egalari nomi",
     "Location":"Manzil",
     "Established Year":"Tashkil etilgan yili",
-    "Value":"Qiymati"
+    "Value":"Qiymati",
+    "Enter the Tax Identification Number":"INN raqamini kiriting",
+    "Enter the TIN":"INN raqamini kiriting",
+    "Check":"Tekshirish"
     
 }
