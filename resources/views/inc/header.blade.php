@@ -21,7 +21,7 @@
             <a href="{{route('bemember', app()->getLocale())}}">@lang("Membership") </a>
             <ul >
                 <li ><a  href="{{route('bemember', app()->getLocale())}}">@lang("Become a member")</a></li>
-                <li ><a  href="members.php">@lang("List of members")</a></li>
+                <li ><a  href="{{route('members', app()->getLocale())}}">@lang("List of members")</a></li>
                 <li ><a  href="checkmembers.php">@lang("Check for membership")</a></li>
             </ul>
         </li>
@@ -92,7 +92,7 @@
                                 <a href="{{route('bemember', app()->getLocale())}}">@lang("Membership")</a>
                                 <ul class="navi-level-2">
                                     <li ><a  href="{{route('bemember', app()->getLocale())}}">@lang("Become a member")</a></li>
-                                    <li ><a  href="members.php">@lang("List of members")</a></li>
+                                    <li ><a  href="{{route('members', app()->getLocale())}}">@lang("List of members")</a></li>
                                     <li ><a  href="checkmembers.php">@lang("Check for membership")</a></li>
                                 </ul>
                             </li>

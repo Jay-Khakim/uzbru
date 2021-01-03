@@ -42,8 +42,15 @@ class PageController extends Controller
         return view('association.branches');
     }
 
+
+    // Membership
     public function bemember(){
         return view('membership.bemember');
+    }
+
+    public function members(){
+        $members = Membership::paginate(12);
+        return view('membership.members')->with(compact("members"));
     }
 
 }
