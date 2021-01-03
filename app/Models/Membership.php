@@ -22,6 +22,12 @@ class Membership extends Model
         'name_en',
         'name_uz',
         'name_ru',
+        'field_en',
+        'field_uz',
+        'field_ru',
+        'owner_en',
+        'owner_uz',
+        'owner_ru',
         'slug_en',
         'certificate_number',
         'inn',
@@ -59,7 +65,7 @@ class Membership extends Model
         'expiry_date',
     ];
     protected $lang_fields =[
-        'name', "desc", 'address'
+        'name', 'owner', 'field', "desc", 'address'
     ];
 
     public function __get($attribute){

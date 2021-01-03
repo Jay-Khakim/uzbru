@@ -44,6 +44,7 @@ class MembershipCrudController extends CrudController
     {
         CRUD::column('status');
         CRUD::column('name_en');
+        CRUD::column('field_en');
         // CRUD::column('name_uz');
         // CRUD::column('name_ru');
         // CRUD::column('slug_en');
@@ -106,6 +107,12 @@ class MembershipCrudController extends CrudController
         CRUD::field('name_en')->size(6);
         CRUD::field('name_uz')->size(6);
         CRUD::field('name_ru')->size(6);
+        CRUD::field('field_en')->size(6);
+        CRUD::field('field_uz')->size(6);
+        CRUD::field('field_ru')->size(6);
+        CRUD::field('owner_en')->size(6);
+        CRUD::field('owner_uz')->size(6);
+        CRUD::field('owner_ru')->size(6);
         // CRUD::field('slug_en');
         CRUD::field('certificate_number')->size(4);
         CRUD::field('inn')->size(4);

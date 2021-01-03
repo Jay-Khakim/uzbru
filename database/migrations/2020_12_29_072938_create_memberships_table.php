@@ -19,6 +19,12 @@ class CreateMembershipsTable extends Migration
             $table->string('name_en', 300)->nullable();
             $table->string('name_uz', 300)->nullable();
             $table->string('name_ru', 300)->nullable();
+            $table->string('owner_en', 300)->nullable();
+            $table->string('owner_uz', 300)->nullable();
+            $table->string('owner_ru', 300)->nullable();
+            $table->string('field_en', 300)->nullable();
+            $table->string('field_uz', 300)->nullable();
+            $table->string('field_ru', 300)->nullable();
             $table->string('slug_en', 300)->unique()->nullable();
             $table->integer('certificate_number')->nullable();
             $table->integer('inn')->nullable();
