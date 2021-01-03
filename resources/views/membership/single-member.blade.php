@@ -34,8 +34,16 @@
                         <h3>{{$member->name}}</h3>
                         <p class="case-cate">{{$member->filed}}</p>
                         <dl class="dl-horizontal">
+                            <dt>@lang("Status")</dt>
+                            @if ($member->status == "inactive")
+                                <dd style="color: red">{{$member->status}}</dd> 
+                            @endif
+                            @if ($member->status == "active")
+                                <dd style="color: green">{{$member->status}}</dd> 
+                            @endif
                           <dt>@lang("Owners Name")</dt>
                           <dd>{{$member->owner}}</dd>
+
                           <dt>@lang("Location")</dt>
                           <dd>{{$member->address}}</dd>
                           <dt>@lang("Established Year")</dt>
