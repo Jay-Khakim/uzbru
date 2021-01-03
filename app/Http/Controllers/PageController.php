@@ -42,4 +42,8 @@ class PageController extends Controller
         return view('association.branches');
     }
 
+    public function bemember(){
+        return view('membership.bemember');
+    }
+
 }

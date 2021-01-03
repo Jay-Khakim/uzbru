@@ -28,4 +28,8 @@ Route::group(['prefix' => '{language}'], function () {
     Route::get('/services', 'PageController@services')->name('services');
     Route::get('/team', 'PageController@team')->name('team');
     Route::get('/branches', 'PageController@branches')->name('branches');
+
+    // Membership
+    Route::get('/bemember', 'PageController@bemember')->name('bemember');
+
 });
