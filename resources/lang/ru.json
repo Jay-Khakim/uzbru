@@ -124,6 +124,9 @@
     "Value":"Cтоимость",
     "Enter the Tax Identification Number":"Введите идентификационный номер налогоплательщика",
     "Enter the TIN":"Введите ИНН",
-    "Check":"Проверить"
+    "Check":"Проверить",
+    "Search Results":"Результаты поиска",
+    "Active":"Активный",
+    "Inactive":"Неактивный"
     
 }

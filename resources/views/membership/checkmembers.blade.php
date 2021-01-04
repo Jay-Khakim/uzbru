@@ -46,4 +46,91 @@
         </div>
     </div>
 </section>
+@if ($member ?? ''>0)
+<section class="bg-light-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="title-block title-contact">
+                    <h3>@lang("Search Results")</h3>
+                    <span class="bottom-title"></span>
+                </div>
+                <div class="list-job-warp">
+                    <div class="table-warp">
+                        <div class="table-responsive">
+                           <table class="table table-hover table-reset">
+                              <thead>
+                                 <tr>
+                                    <th>STIR raqami</th>
+                                    <th>Korxona nomi</th>
+                                    <th>Manzili</th>
+                                    <th>Status</th>
+                                    <th>A'zolik sanasi</th>
+                                  
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                @foreach ($member ?? '' as $item)
+                                 <tr>
+                                    <td>{{$item->inn}}</td>
+                                    <td>{{$item->name}}</td>
+                                    <td>{{$item->address}}</td>
+                                    @if ($item->status == "active")
+                                        <td style="color: green;">@lang("Active")</td>
+                                    @endif
+                                    @if ($item->status == "inactive")
+                                        <td style="color: red;">@lang("Inactive")</td>
+                                    @endif
+                                    <td>{{$item->created_at->format('d')}} <p> </p>
+                                        @if ($item->created_at->format('m') == 1)
+                                            @lang("Jan")
+                                        @endif
+                                        @if ($item->created_at->format('m') == 2)
+                                            @lang("Feb")
+                                        @endif
+                                        @if ($item->created_at->format('m') == 3)
+                                            @lang("Mar")
+                                        @endif
+                                        @if ($item->created_at->format('m') == 4)
+                                            @lang("Apr")
+                                        @endif
+                                        @if ($item->created_at->format('m') == 5)
+                                            @lang("May")
+                                        @endif
+                                        @if ($item->created_at->format('m') == 6)
+                                            @lang("Jun")
+                                        @endif
+                                        @if ($item->created_at->format('m') == 7)
+                                            @lang("Jul")
+                                        @endif
+                                        @if ($item->created_at->format('m') == 8)
+                                            @lang("Aug")
+                                        @endif
+                                        @if ($item->created_at->format('m') == 9)
+                                            @lang("Sep")
+                                        @endif
+                                        @if ($item->created_at->format('m') == 10)
+                                            @lang("Oct")
+                                        @endif
+                                        @if ($item->created_at->format('m') == 11)
+                                            @lang("Nov")
+                                        @endif
+                                        @if ($item->created_at->format('m') == 12)
+                                            @lang("Dec")
+                                        @endif,
+                                        {{$item->created_at->format('Y')}}
+                                        </td>
+                                 </tr>
+                                 @endforeach
+                              </tbody>
+                           </table>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+@endif
 @endsection
