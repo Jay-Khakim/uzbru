@@ -67,7 +67,7 @@ class PageController extends Controller
         // $dt = Carbon::now();
         $search_text = $_GET['check'];
         $member = Membership::where('inn', 'LIKE', '%'.$search_text.'%')->get();
-        dd($member);
+        // dd($member);
 
         return view('membership.checkmembers')->with(compact('member'));
     }
