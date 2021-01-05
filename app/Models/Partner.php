@@ -28,6 +28,9 @@ class Partner extends Model
         'desc_en',
         'desc_uz',
         'desc_ru',
+        'address_en',
+        'address_uz',
+        'address_ru',
         'email',
         'facebook',
         'instagram',
@@ -46,7 +49,7 @@ class Partner extends Model
     ];
 
     protected $lang_fields =[
-        'name', 'field', 'desc'
+        'name', 'field', 'desc', "address"
     ];
 
     public function __get($attribute){

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jan 03, 2021 at 12:29 PM
+-- Generation Time: Jan 05, 2021 at 05:59 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.11
 
@@ -103,8 +103,8 @@ CREATE TABLE `memberships` (
 -- Dumping data for table `memberships`
 --
 
-INSERT INTO `memberships` (`id`, `status`, `name_en`, `name_uz`, `name_ru`, `slug_en`, `certificate_number`, `inn`, `year`, `value`, `expiry_date`, `desc_en`, `desc_uz`, `desc_ru`, `file`, `web`, `email`, `phone`, `address_en`, `address_uz`, `address_ru`, `image`, `deleted_at`, `created_at`, `updated_at`) VALUES
-(2, 'active', 'Jay Khakim', 'Jay Khakim', 'Jay Khakim', NULL, 1234, 234235234, 2020, NULL, '2021-01-29', NULL, NULL, NULL, NULL, NULL, 'mgmediajay@gmail.com', '+18903378856', 'Sergeli-7-18-28', NULL, NULL, 'membership/9dbf53d2f20c55f6282046000f1f2c58.jpg', NULL, '2021-01-03 05:02:28', '2021-01-03 05:02:28');
+INSERT INTO `memberships` (`id`, `status`, `name_en`, `name_uz`, `name_ru`, `owner_en`, `owner_uz`, `owner_ru`, `field_en`, `field_uz`, `field_ru`, `slug_en`, `certificate_number`, `inn`, `year`, `value`, `expiry_date`, `desc_en`, `desc_uz`, `desc_ru`, `file`, `web`, `email`, `phone`, `address_en`, `address_uz`, `address_ru`, `image`, `deleted_at`, `created_at`, `updated_at`) VALUES
+(2, 'active', 'Jay Khakim', 'Jay Khakim', 'Jay Khakim', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 1234, 234235234, 2020, NULL, '2021-01-29', NULL, NULL, NULL, NULL, NULL, 'mgmediajay@gmail.com', '+18903378856', 'Sergeli-7-18-28', NULL, NULL, 'membership/9dbf53d2f20c55f6282046000f1f2c58.jpg', NULL, '2021-01-03 05:02:28', '2021-01-03 05:02:28');
 
 -- --------------------------------------------------------
 
@@ -187,6 +187,9 @@ CREATE TABLE `partners` (
   `desc_en` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `desc_uz` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `desc_ru` longtext COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `address_en` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `address_uz` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `address_ru` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `email` varchar(100) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `facebook` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `instagram` varchar(255) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
@@ -197,6 +200,13 @@ CREATE TABLE `partners` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `partners`
+--
+
+INSERT INTO `partners` (`id`, `name_en`, `name_uz`, `name_ru`, `field_en`, `field_uz`, `field_ru`, `web`, `desc_en`, `desc_uz`, `desc_ru`, `email`, `facebook`, `instagram`, `linkedin`, `twitter`, `image`, `deleted_at`, `created_at`, `updated_at`) VALUES
+(2, 'Association of Exporters of Uzbekistan', 'O\'zbekiston Eksportchilar Uyushmasi', 'Ассоциация экспортеров Узбекистана', 'Solving problems in export and import', 'Eksport va import masalalarini hal qilish', 'Решение проблем при экспорте и импорте', 'https://exportuz.com/', '<p>The Association of Exporters of Uzbekistan has set a regular communication up with more than 10,000 small and medium-sized businesses in almost all sectors of the economy of the Republic of Uzbekistan.</p>', '<p>O&#39;zbekiston eksportchilar assotsiatsiyasi tomonidan O&#39;zbekiston Respublikasi iqtisodiyotining deyarli barcha sohalarida 10000 dan ziyod kichik va o&#39;rta biznes bilan doimiy aloqa o&#39;rnatildi.</p>', '<p>Ассоциация экспортеров Узбекистана наладила регулярное общение с более чем 10 000 предприятий малого и среднего бизнеса практически во всех секторах экономики Республики Узбекистан.</p>', NULL, NULL, NULL, NULL, NULL, 'partners/9c3da50868a9f4e5390b790783ef26da.jpg', NULL, '2021-01-04 23:47:49', '2021-01-04 23:55:58');
 
 -- --------------------------------------------------------
 
@@ -369,7 +379,7 @@ ALTER TABLE `news`
 -- AUTO_INCREMENT for table `partners`
 --
 ALTER TABLE `partners`
-  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` bigint(20) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `staff`

@@ -25,6 +25,9 @@ class CreatePartnersTable extends Migration
             $table->longText('desc_en')->nullable();
             $table->longText('desc_uz')->nullable();
             $table->longText('desc_ru')->nullable();
+            $table->string('address_en')->nullable();
+            $table->string('address_uz')->nullable();
+            $table->string('address_ru')->nullable();
             $table->string('email', 100)->nullable();
             $table->string('facebook')->nullable();
             $table->string('instagram')->nullable();

@@ -32,6 +32,9 @@ class PartnerRequest extends FormRequest
             'field_en' => 'required|min:3',
             'field_ru' => 'required|min:3',
             'field_uz' => 'required|min:3',
+            'address_en' => 'required|min:3',
+            'address_ru' => 'required|min:3',
+            'address_uz' => 'required|min:3',
             'image' => 'required'
         ];
     }

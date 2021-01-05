@@ -144,6 +144,9 @@ class PartnerCrudController extends CrudController
         // CRUD::field('desc_en');
         // CRUD::field('desc_uz');
         // CRUD::field('desc_ru');
+        CRUD::field('address_en')->size(4);
+        CRUD::field('address_uz')->size(4);
+        CRUD::field('address_ru')->size(4);
         CRUD::field('web')->size(4);
         CRUD::field('email')->size(4);
         CRUD::field('facebook')->size(4);
