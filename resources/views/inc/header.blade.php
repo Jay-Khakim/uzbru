@@ -30,7 +30,7 @@
             <ul >
                 {{-- <li><a href="{{route('partners', app()->getLocale())}}">@lang("Feedbacks")</a></li> --}}
                 <li><a href="{{route('partners', app()->getLocale())}}">@lang("Partners")</a></li>
-                <li><a href="faq.php">@lang("FAQ")</a></li>
+                <li><a href="{{route('faq', app()->getLocale())}}">@lang("FAQ")</a></li>
             </ul>
         </li>
         <li>
@@ -101,7 +101,7 @@
                                 <ul class="navi-level-2">
                                     {{-- <li><a href="{{route('partners', app()->getLocale())}}">@lang("Feedbacks")</a></li> --}}
                                     <li><a href="{{route('partners', app()->getLocale())}}">@lang("Partners")</a></li>
-                                    <li><a href="faq.php">@lang("FAQ")</a></li>
+                                    <li><a href="{{route('faq', app()->getLocale())}}">@lang("FAQ")</a></li>
                                 </ul>
                             </li>
                             <li>

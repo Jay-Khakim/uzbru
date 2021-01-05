@@ -38,6 +38,7 @@ Route::group(['prefix' => '{language}'], function () {
 
     // Information
     Route::get('/partners', 'PageController@partners')->name('partners');
+    Route::get('/faq', 'PageController@faq')->name('faq');
 
 
 });

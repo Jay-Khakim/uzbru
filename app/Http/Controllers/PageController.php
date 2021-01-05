@@ -77,4 +77,8 @@ class PageController extends Controller
         return view('information.partners')->with(compact('partners'));
     }
 
+    public function faq(){
+        return view('information.faq');
+    }
+
 }

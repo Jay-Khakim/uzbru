@@ -1,6 +1,6 @@
 @extends('layouts.app')
 @section('title')
-    
+<title>@lang("Partners") | O'zBRU</title>
 @endsection
 @section('content')
     	
@@ -13,7 +13,7 @@
                 <a href="{{route('home', app()->getLocale())}}"><i class="fa fa-home"></i> @lang("Main")</a>
             </li>
             <li>
-               @lang("Information")
+               <a href="javascript:void()">@lang("Information")</a>
             </li>
             <li class="active">@lang("Partners")</li>
         </ol>
