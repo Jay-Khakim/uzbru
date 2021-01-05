@@ -72,4 +72,9 @@ class PageController extends Controller
         return view('membership.checkmembers')->with(compact('member'));
     }
 
+    public function partners(){
+        $partners = Partner::paginate(10);
+        return view('information.partners')->with(compact('partners'));
+    }
+
 }

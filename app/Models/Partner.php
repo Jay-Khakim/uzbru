@@ -46,7 +46,7 @@ class Partner extends Model
     ];
 
     protected $lang_fields =[
-        'name', 'filed', 'desc'
+        'name', 'field', 'desc'
     ];
 
     public function __get($attribute){

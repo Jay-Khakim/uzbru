@@ -26,10 +26,10 @@
             </ul>
         </li>
         <li>
-            <a href="comments.php">@lang("Information")</a>
+            <a href="{{route('partners', app()->getLocale())}}">@lang("Information")</a>
             <ul >
-                <li><a href="comments.php">@lang("Feedbacks")</a></li>
-                <li><a href="partners.php">@lang("Partners")</a></li>
+                {{-- <li><a href="{{route('partners', app()->getLocale())}}">@lang("Feedbacks")</a></li> --}}
+                <li><a href="{{route('partners', app()->getLocale())}}">@lang("Partners")</a></li>
                 <li><a href="faq.php">@lang("FAQ")</a></li>
             </ul>
         </li>
@@ -97,10 +97,10 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="comments.php">@lang("Information")</a>
+                                <a href="{{route('partners', app()->getLocale())}}">@lang("Information")</a>
                                 <ul class="navi-level-2">
-                                    <li><a href="comments.php">@lang("Feedbacks")</a></li>
-                                    <li><a href="partners.php">@lang("Partners")</a></li>
+                                    {{-- <li><a href="{{route('partners', app()->getLocale())}}">@lang("Feedbacks")</a></li> --}}
+                                    <li><a href="{{route('partners', app()->getLocale())}}">@lang("Partners")</a></li>
                                     <li><a href="faq.php">@lang("FAQ")</a></li>
                                 </ul>
                             </li>

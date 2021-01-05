@@ -36,6 +36,8 @@ Route::group(['prefix' => '{language}'], function () {
     Route::get('/checkmembers', 'PageController@checkmembers')->name('checkmembers');
     Route::get('/check', 'PageController@check')->name('check');
 
+    // Information
+    Route::get('/partners', 'PageController@partners')->name('partners');
 
 
 });
