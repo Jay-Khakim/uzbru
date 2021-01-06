@@ -40,5 +40,7 @@ Route::group(['prefix' => '{language}'], function () {
     Route::get('/partners', 'PageController@partners')->name('partners');
     Route::get('/faq', 'PageController@faq')->name('faq');
 
+    //News
+    Route::get('/news', 'PageController@news')->name('news');
 
 });

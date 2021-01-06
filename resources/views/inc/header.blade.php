@@ -34,9 +34,9 @@
             </ul>
         </li>
         <li>
-            <a href="news.php">@lang("News")</a>
+            <a href="{{route('news', app()->getLocale())}}">@lang("News")</a>
             <ul >
-                <li><a href="news.php">@lang("General News")</a></li>
+                <li><a href="{{route('news', app()->getLocale())}}">@lang("General News")</a></li>
                 <li ><a  href="news-2.php">@lang("Association News")</a></li>
             </ul>
         </li>
@@ -105,9 +105,9 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="news.php">@lang("News")</a>
+                                <a href="{{route('news', app()->getLocale())}}">@lang("News")</a>
                                 <ul class="navi-level-2">
-                                    <li><a href="news.php">@lang("General News")</a></li>
+                                    <li><a href="{{route('news', app()->getLocale())}}">@lang("General News")</a></li>
                                     <li ><a  href="news-2.php">@lang("Association News")</a></li>
                                 </ul>
                             </li>
