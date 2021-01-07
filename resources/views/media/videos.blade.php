@@ -5,16 +5,16 @@
 @section('content')
 <section class="no-padding sh-about">
     <div class="sub-header ">
-        <span>O'zbekiston biznesni rivojlantirish uyushmasi</span>
-        <h3>Videolar</h3>
+        <span>@lang("Uzbekistan Business Development Association")</span>
+        <h3>@lang("Video")</h3>
         <ol class="breadcrumb">
              <li>
-                 <a href="#"><i class="fa fa-home"></i> Asosiy</a>
+                <a href="{{route('home', app()->getLocale())}}"><i class="fa fa-home"></i> @lang("Main")</a>
              </li>
              <li>
-                 <a href="#">Media     </a>
+                <a href="javascript:void()">@lang("Media")</a>
              </li>
-             <li class="active">Video</li>
+             <li class="active">@lang("Video")</li>
          </ol>
     </div>
 </section>
