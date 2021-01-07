@@ -90,5 +90,18 @@ class PageController extends Controller
         return view('news.news')->with(compact("news"));
     }
 
+    public function associationnews(){
+        $news = News::where('type', "association")
+        ->paginate(8);
+        // dd($news);
+        return view('news.association-news')->with(compact("news"));
+    }
+
+    public function singlenews($language, $id){
+        $single = News::where('id', $id)->first();
+        $members = Membership::where("id", $id)->first();
+        return view("news.single-news")->with(compact("single", "members"));
+    }
+
 
 }
