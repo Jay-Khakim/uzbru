@@ -44,7 +44,7 @@
             <a href="{{route('photos', app()->getLocale())}}">@lang("Media")</a>
             <ul >
                 <li ><a  href="{{route('photos', app()->getLocale())}}">@lang("Photos")</a></li>
-                <li ><a  href="video.php">@lang("Video")</a></li>
+                <li ><a  href="{{route('videos', app()->getLocale())}}">@lang("Video")</a></li>
                 
             </ul>
         </li>
@@ -116,7 +116,7 @@
                                 <ul class="navi-level-2">
                                     
                                     <li ><a  href="{{route('photos', app()->getLocale())}}">@lang("Photos")</a></li>
-                                    <li ><a  href="video.php">@lang("Video")</a></li>
+                                    <li ><a  href="{{route('videos', app()->getLocale())}}">@lang("Video")</a></li>
                                 </ul>
                             </li>
                             <li><a href="contact.php">@lang("Contacts")</a></li>

@@ -47,6 +47,7 @@ Route::group(['prefix' => '{language}'], function () {
 
     // Media
     Route::get('/photos', 'PageController@photos')->name('photos');
+    Route::get('/videos', 'PageController@videos')->name('videos');
 
 
 });

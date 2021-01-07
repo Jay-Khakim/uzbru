@@ -110,5 +110,11 @@ class PageController extends Controller
         return view("media.photo")->with(compact("photos"));
     }
 
+    public function videos(){
+        $videos = Media::where("status", "video")
+        ->paginate(4);
+        return view("media.videos")->with(compact("videos"));
+    }
+
 
 }
