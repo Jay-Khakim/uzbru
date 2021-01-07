@@ -48,7 +48,7 @@
                 
             </ul>
         </li>
-        <li><a href="contact.php">@lang("Contacts")</a></li>
+        <li><a href="{{route('contacts', app()->getLocale())}}">@lang("Contacts")</a></li>
     </ul>
 </nav>
 <!-- /Mobile Menu -->
@@ -119,7 +119,7 @@
                                     <li ><a  href="{{route('videos', app()->getLocale())}}">@lang("Video")</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact.php">@lang("Contacts")</a></li>
+                            <li><a href="{{route('contacts', app()->getLocale())}}">@lang("Contacts")</a></li>
                         </ul>
                     </nav>
             <a href="#menu" class="btn-menu-mobile"><i class="fa fa-bars" aria-hidden="true"></i></a>

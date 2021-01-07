@@ -43,10 +43,10 @@
                     <ul>
                         <li><a href="{{route('association', app()->getLocale())}}">@lang("Association")</a></li>
                         <li><a href="{{route('faq', app()->getLocale())}}">@lang("FAQ")</a></li>
-                        <li><a href="#">@lang("Benefits")</a></li>
+                        {{-- <li><a href="#">@lang("Benefits")</a></li> --}}
                         <li><a href="{{route('members', app()->getLocale())}}">@lang("List of members")</a></li>
                         <li><a href="{{route('photos', app()->getLocale())}}#">@lang("Photos")</a></li>
-                        <li><a href="#">@lang("Contacts")</a></li>
+                        <li><a href="{{route('contacts', app()->getLocale())}}">@lang("Contacts")</a></li>
 
                     </ul>
                 </div>

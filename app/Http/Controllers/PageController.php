@@ -116,5 +116,10 @@ class PageController extends Controller
         return view("media.videos")->with(compact("videos"));
     }
 
+    // Contacts
+    public function contacts(){
+        return view('contacts');
+    }
+
 
 }

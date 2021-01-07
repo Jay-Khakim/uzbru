@@ -49,5 +49,9 @@ Route::group(['prefix' => '{language}'], function () {
     Route::get('/photos', 'PageController@photos')->name('photos');
     Route::get('/videos', 'PageController@videos')->name('videos');
 
+    // Contacts
+    Route::get('/contacts', 'PageController@contacts')->name('contacts');
+
+
 
 });
