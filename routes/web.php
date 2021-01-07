@@ -45,4 +45,8 @@ Route::group(['prefix' => '{language}'], function () {
     Route::get('/news/{id}', 'PageController@singlenews')->name('single-news');
     Route::get('/association-news', 'PageController@associationnews')->name('association-news');
 
+    // Media
+    Route::get('/photos', 'PageController@photos')->name('photos');
+
+
 });

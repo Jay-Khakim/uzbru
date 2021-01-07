@@ -103,5 +103,12 @@ class PageController extends Controller
         return view("news.single-news")->with(compact("single", "members"));
     }
 
+    // Media
+    public function photos(){
+        $photos = Media::where("status", "photo")
+        ->paginate(16);
+        return view("media.photo")->with(compact("photos"));
+    }
+
 
 }

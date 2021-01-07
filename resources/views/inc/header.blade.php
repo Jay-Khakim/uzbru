@@ -41,9 +41,9 @@
             </ul>
         </li>
         <li>
-            <a href="photo.php">@lang("Media")</a>
+            <a href="{{route('photos', app()->getLocale())}}">@lang("Media")</a>
             <ul >
-                <li ><a  href="photo.php">@lang("Photos")</a></li>
+                <li ><a  href="{{route('photos', app()->getLocale())}}">@lang("Photos")</a></li>
                 <li ><a  href="video.php">@lang("Video")</a></li>
                 
             </ul>
@@ -112,10 +112,10 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="photo.php">@lang("Media")</a>
+                                <a href="{{route('photos', app()->getLocale())}}">@lang("Media")</a>
                                 <ul class="navi-level-2">
                                     
-                                    <li ><a  href="photo.php">@lang("Photos")</a></li>
+                                    <li ><a  href="{{route('photos', app()->getLocale())}}">@lang("Photos")</a></li>
                                     <li ><a  href="video.php">@lang("Video")</a></li>
                                 </ul>
                             </li>
