@@ -3,9 +3,20 @@
     <title>@lang("Uzbekistan Business Development Association") | @lang("UBDA")</title>
 @endsection
 @section('language')
-    <option data-class="usa"><a href="{{ url('en') }}"> @lang("English")</a></option>
-    <option data-class="uz"><a href="{{ url('uz') }}">@lang("Uzbek")</a></option>
-    <option data-class="ru"><a href="{{ url('ru') }}">@lang("Russian")</a></option>
+    <li>
+        <a href="{{ url( 'en') }}"><img src="/images/icon/1.jpg" alt="JB's Language Icon"><span>En</span></a>
+    </li>
+    <li>
+        <a href="{{ url( 'ru') }}"><img src="/images/icon/2.jpg" alt="JB's Language Icon"><span>Ru</span></a>
+    </li>
+    <li>
+        <a href="{{ url( 'uz') }}"><img src="/images/icon/3.jpg" alt="JB's Language Icon"><span>Uz</span></a>
+    </li>
+@endsection
+@section('mob-lang')
+<a href="{{ url( 'en') }}" style="color: white;"><img src="/images/icon/1.jpg" alt="JB's Language Icon"><span>En</span></a>
+<a href="{{ url( 'ru') }}" style="color: white; padding-left: 15px;"><img src="/images/icon/2.jpg" alt="JB's Language Icon"><span>Ru</span></a>
+<a href="{{ url( 'uz') }}" style="color: white; padding-left: 15px;"><img src="/images/icon/3.jpg" alt="JB's Language Icon"><span>Uz</span></a>
 @endsection
 @section('content')
 <!-- Slider -->
