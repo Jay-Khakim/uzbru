@@ -77,11 +77,11 @@
                            <table class="table table-hover table-reset">
                               <thead>
                                  <tr>
-                                    <th>STIR raqami</th>
-                                    <th>Korxona nomi</th>
-                                    <th>Manzili</th>
-                                    <th>Status</th>
-                                    <th>A'zolik sanasi</th>
+                                    <th>@lang("TIN")</th>
+                                    <th>@lang("Korxona nomi")</th>
+                                    <th>@lang("Location")</th>
+                                    <th>@lang("Status")</th>
+                                    <th>@lang("Membership date")</th>
                                   
                                  </tr>
                               </thead>
