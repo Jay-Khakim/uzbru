@@ -1,6 +1,11 @@
 <!-- Mobile Menu -->
 <nav id="menu">
     <ul>
+        <div class="row text-center" style=" margin: 15px; padding-left: 5px;" >
+            <li >
+                @yield('mob-lang')
+            </li>
+        </div>
         <li class="active">
             <a href="{{route('home', app()->getLocale())}}">@lang("Main")</a>
         </li>
@@ -59,9 +64,10 @@
             
             <div class="tb-social-lan language">
                 <a href="tel:+998712070098"><i class="fa fa-phone" aria-hidden="true"></i>+998(71)2070098</a>
-                <select class="lang">
+                <ul>
                     @yield('language')
-                </select>
+                    
+                </ul>
                 <ul>
                     <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <li><a href="#" data-toggle="tooltip" data-placement="bottom" title="twitter"><i class="fa fa-paper-plane" aria-hidden="true"></i></a></li>
