@@ -2,6 +2,22 @@
 @section('title')
 <title>@lang("News") | O'zBRU</title>
 @endsection
+@section('language')
+    <li>
+        <a href="{{route('single-news', ['language' => 'en', 'id' => $single->id])}}"><img src="/images/icon/1.jpg" alt="JB's Language Icon"><span>En</span></a>
+    </li>
+    <li>
+        <a href="{{route('single-news', ['language' => 'ru', 'id' => $single->id])}}"><img src="/images/icon/2.jpg" alt="JB's Language Icon"><span>Ru</span></a>
+    </li>
+    <li>
+        <a href="{{route('single-news', ['language' => 'uz', 'id' => $single->id])}}"><img src="/images/icon/3.jpg" alt="JB's Language Icon"><span>Uz</span></a>
+    </li>
+@endsection
+@section('mob-lang')
+<a href="{{route('single-news', ['language' => 'en', 'id' => $single->id])}}" style="color: white;"><img src="/images/icon/1.jpg" alt="JB's Language Icon"><span>En</span></a>
+<a href="{{route('single-news', ['language' => 'ru', 'id' => $single->id])}}" style="color: white; padding-left: 15px;"><img src="/images/icon/2.jpg" alt="JB's Language Icon"><span>Ru</span></a>
+<a href="{{route('single-news', ['language' => 'uz', 'id' => $single->id])}}" style="color: white; padding-left: 15px;"><img src="/images/icon/3.jpg" alt="JB's Language Icon"><span>Uz</span></a>
+@endsection
 @section('content')
 <section class="no-padding sh-news">
     <div class="sub-header ">
