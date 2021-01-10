@@ -1,7 +1,22 @@
 @extends('layouts.app')
 @section('title')
 <title>@lang("History") | O'zBRU</title>
-
+@section('language')
+    <li>
+        <a href="{{route('association', 'en') }}"><img src="/images/icon/1.jpg" alt="JB's Language Icon"><span>En</span></a>
+    </li>
+    <li>
+        <a href="{{route('association', 'ru') }}"><img src="/images/icon/2.jpg" alt="JB's Language Icon"><span>Ru</span></a>
+    </li>
+    <li>
+        <a href="{{route('association', 'uz') }}"><img src="/images/icon/3.jpg" alt="JB's Language Icon"><span>Uz</span></a>
+    </li>
+@endsection
+@section('mob-lang')
+<a href="{{route('association', 'en') }}" style="color: white;"><img src="/images/icon/1.jpg" alt="JB's Language Icon"><span>En</span></a>
+<a href="{{route('association', 'ru') }}" style="color: white; padding-left: 15px;"><img src="/images/icon/2.jpg" alt="JB's Language Icon"><span>Ru</span></a>
+<a href="{{route('association', 'uz') }}" style="color: white; padding-left: 15px;"><img src="/images/icon/3.jpg" alt="JB's Language Icon"><span>Uz</span></a>
+@endsection
 @endsection
 @section('content')
 <section class="no-padding sh-company-history">
