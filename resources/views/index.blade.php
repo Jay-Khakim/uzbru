@@ -284,7 +284,7 @@
                 <div class="title-block text-center title-pd">
                     <span class="top-title "></span>
                     <h2>@lang("Our Advantages")</h2>
-                    <p class="sub-title">@lang("As always, partners grows with you")!</p>
+                    <p class="sub-title">@lang("Open closed doors with us")!</p>
                     <span class="bottom-title"></span>
                 </div>
                 <div class="warp-full-width services-h1-warp offer-h10-warp">
@@ -292,8 +292,8 @@
                     <div class="item-offer-h10" >
                         <div class="iconbox-type-xs  text-center">
                             <span class="lnr lnr-pie-chart"></span>
-                            <h4>@lang("Taxation")</h4>
-                            <p>@lang("The lysine contingency it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme").</p>
+                            <h4>@lang("Convenience for investors")</h4>
+                            <p>@lang("Creating convenience and benefits for investors in the course of their activities in Uzbekistan (transport, hotel, all conditions for signing a contract  and law services)").</p>
                             
                         </div>
                     </div>
@@ -302,8 +302,8 @@
                     <div class="item-offer-h10 bg-light-grey" >
                         <div class="iconbox-type-xs text-center">
                             <span class="lnr lnr-calendar-full"></span>
-                            <h4>Accumulation</h4>
-                            <p>The lysine contingency it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme.</p>
+                            <h4>@lang("Cooperation")</h4>
+                            <p>@lang("Facilitating the establishment of guaranteed business partnerships for investors and entrepreneurs, the collection of mutual information between the parties.")</p>
                             
                         </div>
                     </div>
@@ -312,8 +312,8 @@
                     <div class="item-offer-h10" >
                         <div class="iconbox-type-xs text-center">
                             <span class="lnr lnr-briefcase"></span>
-                            <h4>Business Planning</h4>
-                            <p>The lysine contingency it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme.</p>
+                            <h4>@lang("Facilitate the reduction of clandestine business")</h4>
+                            <p>@lang("Helping to reduce the number of shadow economy entities in the territory of Uzbekistan and a full analysis of their causes.")</p>
                             
                         </div>
                     </div>
@@ -322,8 +322,8 @@
                     <div class="item-offer-h10 bg-light-grey" >
                         <div class="iconbox-type-xs text-center">
                             <span class="lnr lnr-layers"></span> 
-                            <h4>Risk Management</h4>
-                            <p>The lysine contingency it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme.</p>
+                            <h4>@lang("Customs and tax service")</h4>
+                            <p>@lang("Assisting in resolving problems with customs clearance and taxes")</p>
                             
                         </div>
                     </div>
@@ -332,8 +332,8 @@
                     <div class="item-offer-h10" >
                         <div class="iconbox-type-xs text-center">
                             <span class="lnr lnr-pie-chart"></span>
-                            <h4>Taxation</h4>
-                            <p>The lysine contingency it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme.</p>
+                            <h4>@lang("Legal support")</h4>
+                            <p>@lang("Industry news, decisions and implementation of laws")</p>
                             
                         </div>
                     </div>
@@ -342,17 +342,17 @@
                     <div class="item-offer-h10 bg-light-grey" >
                         <div class="iconbox-type-xs text-center">
                             <span class="lnr lnr-calendar-full"></span>
-                            <h4>Accumulation</h4>
-                            <p>The lysine contingency it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes a single faulty enzyme.</p>
+                            <h4>@lang("Exports and imports")</h4>
+                            <p>@lang("Stabilization and control of the export-import process, legal and practical assistance in solving problems arising in this process")</p>
                             
                         </div>
                     </div>
                 </div>
                 </div>
             </div>
-            <div class="col-md-12 text-center">
+            {{-- <div class="col-md-12 text-center">
                 <a href="cases.html" class="ot-btn btn-border-dark-color">@lang("All")</a>
-            </div>
+            </div> --}}
         </div>
     </div>
 </section>
@@ -410,7 +410,7 @@
                     <div class="iconbox-inline">
                         <span class="icon icon-trophy"></span>
                         <h4>@lang("Business development")</h4>
-                        <p>@lang("Carry out in-depth marketing research and analysis in order to develop the business and identify appropriate measures based on their results")</p>
+                        <p>@lang("Assisting local producers and entrepreneurs in Uzbekistan to find their place in the world market, and foreign investors to establish or expand their activities in the country")</p>
                     </div>
                     <div class="iconbox-inline">
                         <span class="icon icon-library"></span>
@@ -420,7 +420,7 @@
                     <div class="iconbox-inline">
                         <span class="icon icon-user-check"></span>
                         <h4>@lang("Merge members")</h4>
-                        <p>@lang("To unite the members of the Association, to coordinate their activities, and to protect them")</p>
+                        <p>@lang("Coordinating and protecting the activities of the members of the Association by voluntarily uniting them")</p>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -444,7 +444,7 @@
                     <div class="iconbox-inline">
                         <span class="icon icon-power"></span>
                         <h4>@lang("Marketing research")</h4>
-                        <p>@lang("Carry out in-depth marketing research and analysis in order to develop the business and identify appropriate measures based on their results")</p>
+                        <p>@lang("To conduct in-depth marketing research and analysis in order to develop the business, to determine the appropriate measures based on their results")</p>
                     </div>
                     <div class="iconbox-inline">
                         <span class="icon icon-key"></span>
@@ -471,7 +471,7 @@
                     <div class="title-block">
                         <span class="top-title"></span>
                         <h2>@lang("The principle of association")</h2>
-                        <p class="sub-title">@lang("As always, partners grows with you")!</p>
+                        <p class="sub-title">@lang("Open closed doors with us")!</p>
                         <span class="bottom-title"></span>
                     </div>
                     <div class="customNavigation">
@@ -484,51 +484,51 @@
                         <div class="item-plan-step">
 
                             <div class="step">1</div>
-                            <h4>@lang("Establish")</h4>
-                            <p>The lysine contingency it's intended to prevent the spread of the animals is case they ever got off the island. </p>
+                            <h4>@lang("Acceptance of appeals")</h4>
+                            <p>@lang("Accepting written issues addressed by members of the Association") </p>
                         </div>
 
                         <div class="item-plan-step">
                             
                             <div class="step">2</div>
-                            <h4>@lang("Collect")</h4>
-                            <p>The lysine contingency it's intended to prevent the spread of the animals is case they ever got off the island. </p>
+                            <h4>@lang("Study the problem")</h4>
+                            <p>@lang("Investigate the origins and causes of problems")</p>
                         </div>
 
                         <div class="item-plan-step">
                             
                             <div class="step">3</div>
                             <h4>@lang("Analyze")</h4>
-                            <p>The lysine contingency it's intended to prevent the spread of the animals is case they ever got off the island. </p>
+                            <p>@lang("Work with sources and officials and establish effective partnerships to find the root of the problem") </p>
                         </div>
 
                         <div class="item-plan-step">
                             
                             <div class="step">4</div>
-                            <h4>@lang("Develop")</h4>
-                            <p>The lysine contingency it's intended to prevent the spread of the animals is case they ever got off the island. </p>
+                            <h4>@lang("Giving solutions")</h4>
+                            <p>@lang("Propose solutions to the existing problem by the association and study the views of the applicant") </p>
                         </div>
 
                         <div class="item-plan-step">
                             
                             <div class="step">5</div>
-                            <h4>@lang("Testing")</h4>
-                            <p>The lysine contingency it's intended to prevent the spread of the animals is case they ever got off the island. </p>
+                            <h4>@lang("Problem solving")</h4>
+                            <p>@lang("Positively address the issue by creating a variety of conveniences and conditions for members") </p>
                         </div>
 
                         <div class="item-plan-step">
                             
                             <div class="step">6</div>
-                            <h4>@lang("Contact")</h4>
-                            <p>The lysine contingency it's intended to prevent the spread of the animals is case they ever got off the island. </p>
+                            <h4>@lang("Result")</h4>
+                            <p>@lang("Record a positive result on the application") </p>
                         </div>
 
-                        <div class="item-plan-step">
+                        {{-- <div class="item-plan-step">
                             
                             <div class="step">7</div>
                             <h4>@lang("Result")</h4>
                             <p>The lysine contingency it's intended to prevent the spread of the animals is case they ever got off the island. </p>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </div>
@@ -642,7 +642,7 @@
     </div>
 </section>
 <!-- /partner -->
-<section class="bg-tw-h6">
+{{-- <section class="bg-tw-h6">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -681,7 +681,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!-- /Testimonial -->
 
 
