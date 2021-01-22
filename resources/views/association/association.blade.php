@@ -46,12 +46,12 @@
                                     <div class="timeline-icon">
                                     </div>
                                     <div class="timeline-label">
-                                        <h4>Establishment of the company</h4>
-                                        <p>Temporibus autem quibusdam et aut officiis debitis is aut rerum necessitatibus saepes eveniet ut et seo lage voluptates repudiandae sint et molestiae non mes  for Creating  futures through building preservation. Rising commodity prices tend to push bond prices lower.</p>
+                                        <h4>@lang("Establishment of the association")</h4>
+                                        <p>@lang("The association was registered by the Ministry of Justice on October 26, 2020 with the registration number №309.")</p>
                                     </div>
                                 </div>
                             </article>
-                            <article class="timeline-entry">
+                            {{-- <article class="timeline-entry">
                                 <p class="h-year">1985</p>
                                 <div class="timeline-entry-inner">
                                     <div class="timeline-icon">
@@ -94,7 +94,7 @@
                                         <p>Temporibus autem quibusdam et aut officiis debitis is aut rerum necessitatibus saepes eveniet ut et seo lage voluptates repudiandae sint et molestiae non mes  for Creating  futures through building preservation. Rising commodity prices tend to push bond prices lower.</p>
                                     </div>
                                 </div>
-                            </article>
+                            </article> --}}
                         </div>
                     </div>
                 </div>
