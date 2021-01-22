@@ -258,7 +258,7 @@
                             <div class="title-block">
                                 <span class="top-title"></span>
                                 <h2>@lang("About Us")</h2>
-                                <p class="sub-title">@lang("We grow your business together")!</p>
+                                <p class="sub-title">@lang("Open closed doors with us")!</p>
                                 <span class="bottom-title"></span>
                             </div>
                             <p class="demo-sub-about-text">@lang("In order to ensure the implementation of the Decree of the President of the Republic of Uzbekistan dated 03.04.2020 'On additional measures to support the population, sectors of the economy and businesses during the coronavirus pandemic' 'Association Business Development of Uzbekistan' was established").</p>
@@ -773,13 +773,13 @@
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
             <img src="/images/Logo-on-light.png" class="img-responsive" alt="Image">
-            <p>Temporibus autem quibusdam et aut officiis debitis is aut rerum necessitatibus saepes eveniet ut et seo lage voluptates repudiandae sint et molestiae non mes  for Creating  futures through building preservation. </p>
+            <p>@lang("Uzbekistan Business Development Association supports the development of your business! Find a legal solution to any business problem with us!") </p>
             <ul class="widget widget-footer widget-footer-social-1 social-hover-defaul">
-                <li><a class="facebook" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a class="twitter" href="#"><i class="fa fa-paper-plane" aria-hidden="true"></i></a></li>
-                <li><a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                <li><a class="linkedin" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                <li><a class="flickr" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                <li><a class="facebook" href="https://www.facebook.com/ozbekistonbiznesnirivojlantirish.uyushmasi.7"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a class="twitter" href="https://t.me/bru_uz"><i class="fa fa-paper-plane" aria-hidden="true"></i></a></li>
+                {{-- <li><a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li> --}}
+                <li><a class="linkedin" href="https://www.instagram.com/uz_bru/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                {{-- <li><a class="flickr" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li> --}}
             </ul>
             </div>
         </div>
