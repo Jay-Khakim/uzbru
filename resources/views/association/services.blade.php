@@ -42,60 +42,91 @@
                     <div class="item-service-list">
                         <figure>
                             <img src="/images/Services/1p.jpg" class="img-responsive" alt="Image">
-                            <figcaption>Turnaround Consulting</figcaption>
+                            <figcaption>@lang("Demonstration in showrooms")</figcaption>
                         </figure>
                         <div class="box-sum-service">
-                            <p>Temporibus autem quibusdam et aut officiis debitis is aut rerum necessitatibus saepes eveniet ut etes seo voluptates repudiandae sint et molestiae non mes  Creating  futures through building pres preservation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt utonis labore et dolore magna aliqua.</p>
+                            <p>@lang("Facilitating the transition of business to the digital economy; (Posting products on Alibaba, Uzbekmart e-show)")</p>
                             <a href="single_services.php" class="ot-btn btn-sub-color" >Read More</a>
                         </div>
                     </div>
                     <div class="item-service-list">
                         <figure>
                             <img src="/images/Services/2p.jpg" class="img-responsive" alt="Image">
-                            <figcaption>Bonds & Commodities</figcaption>
+                            <figcaption>@lang("Foreign trade offers")</figcaption>
                         </figure>
                         <div class="box-sum-service">
-                            <p>Temporibus autem quibusdam et aut officiis debitis is aut rerum necessitatibus saepes eveniet ut etes seo voluptates repudiandae sint et molestiae non mes  Creating  futures through building pres preservation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt utonis labore et dolore magna aliqua.</p>
+                            <p>@lang("Entrepreneurs and local producers who have become members of the Association will be provided with foreign trade proposals that will be implemented in Uzbekistan or will help to develop existing sectors")</p>
                             <a href="#" class="ot-btn btn-sub-color" >Read More</a>
                         </div>
                     </div>
                     <div class="item-service-list">
                         <figure>
                             <img src="/images/Services/3p.jpg" class="img-responsive" alt="Image">
-                            <figcaption>Audit & Assurance</figcaption>
+                            <figcaption>@lang("Legal advice")</figcaption>
                         </figure>
                         <div class="box-sum-service">
-                            <p>Temporibus autem quibusdam et aut officiis debitis is aut rerum necessitatibus saepes eveniet ut etes seo voluptates repudiandae sint et molestiae non mes  Creating  futures through building pres preservation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt utonis labore et dolore magna aliqua.</p>
+                            <p>@lang("Primary legal advice is provided by experts and management on legal issues or questions encountered in business or investment activities")</p>
                             <a href="#" class="ot-btn btn-sub-color" >Read More</a>
                         </div>
                     </div>
                     <div class="item-service-list">
                         <figure>
                             <img src="/images/Services/4p.jpg" class="img-responsive" alt="Image">
-                            <figcaption>Trades & Stocks</figcaption>
+                            <figcaption>@lang("Organizational support")</figcaption>
                         </figure>
                         <div class="box-sum-service">
-                            <p>Temporibus autem quibusdam et aut officiis debitis is aut rerum necessitatibus saepes eveniet ut etes seo voluptates repudiandae sint et molestiae non mes  Creating  futures through building pres preservation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt utonis labore et dolore magna aliqua.</p>
+                            <p>@lang("Providing legal advice on issues related to customs clearance (practical assistance in coordinating customs costs)")</p>
                             <a href="#" class="ot-btn btn-sub-color" >Read More</a>
                         </div>
                     </div>
                     <div class="item-service-list">
                         <figure>
                             <img src="/images/Services/5p.jpg" class="img-responsive" alt="Image">
-                            <figcaption>Strategic Planning</figcaption>
+                            <figcaption>@lang("Transport and logistics")</figcaption>
                         </figure>
                         <div class="box-sum-service">
-                            <p>Temporibus autem quibusdam et aut officiis debitis is aut rerum necessitatibus saepes eveniet ut etes seo voluptates repudiandae sint et molestiae non mes  Creating  futures through building pres preservation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt utonis labore et dolore magna aliqua.</p>
+                            <p>@lang("Providing legal advice on the organization of cheap and guaranteed transport and logistics in the process of import and export of products from foreign countries")</p>
                             <a href="#" class="ot-btn btn-sub-color" >Read More</a>
                         </div>
                     </div>
                     <div class="item-service-list">
                         <figure>
                             <img src="/images/Services/6p.jpg" class="img-responsive" alt="Image">
-                            <figcaption>Financial Projections</figcaption>
+                            <figcaption>@lang("Participation in exhibitions")</figcaption>
                         </figure>
                         <div class="box-sum-service">
-                            <p>Temporibus autem quibusdam et aut officiis debitis is aut rerum necessitatibus saepes eveniet ut etes seo voluptates repudiandae sint et molestiae non mes  Creating  futures through building pres preservation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod incididunt utonis labore et dolore magna aliqua.</p>
+                            <p>@lang("Exhibitions organized abroad also provide free or discounted participation of members of the association in fairs")</p>
+                            <a href="#" class="ot-btn btn-sub-color" >Read More</a>
+                        </div>
+                    </div>
+
+                    <div class="item-service-list">
+                        <figure>
+                            <img src="/images/Services/1p.jpg" class="img-responsive" alt="Image">
+                            <figcaption>@lang("Discounts from hotels")</figcaption>
+                        </figure>
+                        <div class="box-sum-service">
+                            <p>@lang("Offering discounts to members and partners of the Association as part of business visits from hotels across the country")</p>
+                            <a href="single_services.php" class="ot-btn btn-sub-color" >Read More</a>
+                        </div>
+                    </div>
+                    <div class="item-service-list">
+                        <figure>
+                            <img src="/images/Services/2p.jpg" class="img-responsive" alt="Image">
+                            <figcaption>@lang("Foreign trade offers")</figcaption>
+                        </figure>
+                        <div class="box-sum-service">
+                            <p>@lang("Entrepreneurs and local producers who have become members of the Association will be provided with foreign trade proposals that will be implemented in Uzbekistan or will help to develop existing sectors")</p>
+                            <a href="#" class="ot-btn btn-sub-color" >Read More</a>
+                        </div>
+                    </div>
+                    <div class="item-service-list">
+                        <figure>
+                            <img src="/images/Services/3p.jpg" class="img-responsive" alt="Image">
+                            <figcaption>@lang("Legal advice")</figcaption>
+                        </figure>
+                        <div class="box-sum-service">
+                            <p>@lang("Primary legal advice is provided by experts and management on legal issues or questions encountered in business or investment activities")</p>
                             <a href="#" class="ot-btn btn-sub-color" >Read More</a>
                         </div>
                     </div>
