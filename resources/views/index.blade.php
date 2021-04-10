@@ -242,40 +242,36 @@
 <!-- /Slider -->
 
 <section class="no-padding">
-    <div class="container">
-        <div class="row">
+        <div class="container">
+          <div class="row">
             <div class="whyus-warp-h2 core-value-h3">
-                <div class="col-md-6">
-                    <div class="left-whyus-h2">
-                        <div class="demo-style-1-warp">
-                            <img src="/images/Content/bg-core-value-h3.png" class="img-responsive" alt="Image">
-                        </div>
-                    </div>
+              <div class="col-md-6">
+                <div class="left-whyus-h2">
+                  <div class="demo-style-1-warp">
+                    <img src="/images/Content/bg-core-value-h3.png" class="img-responsive" alt="Image">
+                  </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="right-whyus-h2">
-                        <div class="iconbox-warp ">
-                            <div class="title-block">
-                                <span class="top-title"></span>
-                                <h2>@lang("About Us")</h2>
-                                <p class="sub-title">@lang("Open closed doors with us")!</p>
-                                <span class="bottom-title"></span>
-                            </div>
-                            <p class="demo-sub-about-text">@lang("In order to ensure the implementation of the Decree of the President of the Republic of Uzbekistan dated 03.04.2020 'On additional measures to support the population, sectors of the economy and businesses during the coronavirus pandemic' 'Association Business Development of Uzbekistan' was established").</p>
-                            <h4>@lang("The basis of the association")</h4>
-                            <p>@lang("The association was registered by the Ministry of Justice on October 26, 2020 with the registration number №309").</p>
-                            <h4>@lang("Chairman of the Association")</h4>
-                            <p>@lang("Malikov Yorkinjon Erkinjonovich, Chairman of the Board of the Business Development Association of Uzbekistan").</p>
-                            <h4>@lang("The purpose of the association")</h4>
-                            <p>@lang("Support of entrepreneurs in our country, implementation of active transformation processes of entrepreneurs to world business standards, assistance in reducing the shadow economy, transformation of business entities into the digital economy").</p>
-                        </div>
+              </div>
+              <div class="col-md-6">
+                <div class="right-whyus-h2">
+                  <div class="iconbox-warp ">
+                    <div class="title-block">
+                      <span class="top-title"></span>
+                      <h2>@lang("Chairman’s Message")</h2>
+                      
+                      <span class="bottom-title"></span>
                     </div>
+                    <p>@lang("I am honored to send a message as the Chairman of Uzbekistan Business Development Association (UBDA) in order to introduce the missions and goals of the association. UBDA is a registered organization under Ministry of Justice of Republic of Uzbekistan dedicated to supporting entrepreneurial entities and investors in Uzbekistan, creating transparent and convenient trade and investment environment so that entrepreneurs and investors can apply all preferences and privileges imposed by the new policy of Uzbekistan. I am particularly energized to see that our Association and the business community are playing a crucial role in driving this growth and prosperity forward. My enduring commitment to membership is to focus on how we can support business growth. To achieve this, we intend to continue to concentrate on four specific strategic goals that will help the organization set the national standard for fostering community prosperity. These include:  Advocating public policy that situates Tashkent as a leading business center,  optimizing and diversifying Association communications and programming to maximize member’s experience, facilitate greater member-to-member connections, and attract new members,  ensuring that the Chamber achieves the highest standard of operational excellence and contributing to the achievement and recognition of community excellence. While Uzbekistan Business Development Association is many things to many businesses, organizations, and individuals – Advocate, Connector, Communicator, Facilitator, Thought Leader – for key stakeholders it is also that of a community advocate and community leader. Let’s celebrate our past successes and attack our future challenges – together.")</p>
+                    <h4>@lang("Malikov Yorkin Erkinjonovich")</h4>
+                    <p>@lang("Chairman of Uzbekistan Business Development Association").</p>
+                  </div>
                 </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</section>
-<!-- about description -->
+      </section>
+      <!-- about description -->
 
 <section class="no-padding offer-h10">
     <div class="container">
